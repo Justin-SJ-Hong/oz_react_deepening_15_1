@@ -2,7 +2,7 @@ import { atom } from "recoil";
 
 // Atom 생성은 실제 데이터가 있는 곳에서 할 것!!
 export const MOCK_DATA = atom({
-    key: 'MOCK_DATA',
+    key: 'my_data',
     default: [
     {
         id: 1,
